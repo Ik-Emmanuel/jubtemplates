@@ -59,7 +59,7 @@ title.replace(' ', '-').lower() %} {% set btn_label = btn_label or title %}
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="https://livingwalesstorage.blob.core.windows.net/staticfiles/style.min.css"
+    <link rel="stylesheet" href="https://lwmainstorageprod.blob.core.windows.net/staticfiles/style.min.css"
     type="text/css"/> {% endblock %} {% block favicon %} <link rel="icon"
     href="{{ static_url("favicon.ico") }}" type="image/x-icon"> {% endblock %}
     <style>
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-jupyter:hover {
         background-size: cover;
         background-position: bottom;
         position: relative;
-        background-image: url("https://livingwalesstorage.blob.core.windows.net/staticfiles/living-earth-bg.jpg");
+        background-image: url("https://lwmainstorageprod.blob.core.windows.net/staticfiles/living-earth-bg.jpg");
         margin-bottom: 2em;
       }
 
@@ -311,7 +311,7 @@ fieldset[disabled] .btn-jupyter:hover {
           <span id="jupyterhub-logo" class="pull-left">
             <a href="{{logo_url or base_url}}"
               ><img
-                src="https://livingwalesstorage.blob.core.windows.net/staticfiles/LivingEarth-black.png"
+                src="https://lwmainstorageprod.blob.core.windows.net/staticfiles/LivingEarth-black.png"
                 alt="JupyterHub logo"
                 class="jpy-logo"
                 title="Home"
